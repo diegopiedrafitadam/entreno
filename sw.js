@@ -1,6 +1,6 @@
 // Guarda la app en el teléfono para abrirla sin conexión.
 // Los datos de la planilla nunca se cachean acá: la app guarda su propia copia.
-const VERSION = "entreno-v3";
+const VERSION = "dam-v7";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
